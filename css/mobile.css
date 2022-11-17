@@ -1,0 +1,64 @@
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .text-banner {
+    font-size: 0.75rem;
+  }
+  .nav-bar {
+    display: inline-block;
+    height: max-content;
+  }
+
+  .nav-item {
+    margin: 20px 0;
+    justify-content: center;
+  }
+  .about {
+    display: inline-block;
+    height: max-content;
+  }
+  .about-item {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  #personal-info {
+    border-top: #ced4da 0.1px solid;
+  }
+  .job-info {
+    grid-template-columns: 1fr;
+  }
+  .certi-body {
+    display: inline-block;
+  }
+  .certi-img {
+    width: 50%;
+  }
+  .certi-text {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .certi-item {
+    display: inline-block;
+    border-bottom: 0.5px solid #d6c08d;
+    border-left: 0 !important;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .cer-item3 {
+    border-top: 0 !important;
+    border-bottom: 0;
+  }
+  .cer-item4 {
+    display: none;
+  }
+  .pro-body {
+    display: inline-block;
+  }
+  .pro-item {
+    margin-bottom: 30px;
+  }
+}

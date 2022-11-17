@@ -1,0 +1,28 @@
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  .text-banner {
+    font-size: 0.8rem;
+  }
+  .nav-center {
+    display: none;
+  }
+  .job-info {
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+  }
+  .certi-item {
+    margin-left: 20px;
+  }
+  .certi-img {
+    width: 75%;
+    display: inline-block;
+  }
+  .certi-text {
+    font-size: 0.7rem;
+  }
+  #project {
+    font-size: 0.7rem;
+  }
+}
